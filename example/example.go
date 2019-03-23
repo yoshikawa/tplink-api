@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	api, err := tplink.Connect("yoshikawataiki@gmail.com", "hogehage")
+	api, err := tplink.Connect("hogehoge@hoge.com", "hogehage")
 	if err != nil {
 		log.Fatal(err)
 	}
